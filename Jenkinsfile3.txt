@@ -38,7 +38,6 @@ pipeline {
                 sh '''
                    echo "line3"
                    '''
-                sh "docker ps -a"
                 echo "CONGRATULATIONS"
 
             }
