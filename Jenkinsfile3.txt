@@ -37,7 +37,6 @@ pipeline {
                 echo 'Hello my dear friends!'
                 sh '''
                    echo "line3"
-                   docker images
                    '''
                 sh "docker ps -a"
                 echo "CONGRATULATIONS"
